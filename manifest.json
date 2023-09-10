@@ -1,0 +1,8 @@
+{
+  "domain": "limitlessled_rf",
+  "name": "LimitlessLED_RF",
+  "documentation": "https://www.home-assistant.io/integrations/limitlessled_rf_incomplete",
+  "requirements": ["limitlessled_rf==0.14", "lt8900_spi==2.5", "gpiozero==1.5.1"],
+  "dependencies": [],
+  "codeowners": []
+}
