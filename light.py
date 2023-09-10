@@ -2,7 +2,11 @@
 
 import voluptuous
 
-import homeassistant.components.limitlessled.light_rf as light_rf
+try:
+    from . import light_rf as light_rf
+except:
+    import light_rf
+
 
 from homeassistant.components.light import PLATFORM_SCHEMA
 import homeassistant.helpers.config_validation as config_validation
